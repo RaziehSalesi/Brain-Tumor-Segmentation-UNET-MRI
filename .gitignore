@@ -1,0 +1,22 @@
+# Python cache and junk
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+.DS_Store
+
+# Dataset (Do not commit raw MRI files)
+data/kaggle_3m/
+*.zip
+*.tif
+
+# Model Checkpoints (Do not commit large .pt weight files by default)
+checkpoints/*.pt
+*.pth
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# IDE specific files
+.vscode/
+.idea/
